@@ -1,0 +1,463 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.wbui\\CustomerManagement.wbui.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj",
+        "projectName": "CustomerManagement.Base",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\CustomerManagement.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\CustomerManagement.Business.csproj",
+        "projectName": "CustomerManagement.Business",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\CustomerManagement.Business.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj",
+        "projectName": "CustomerManagement.Common",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj",
+        "projectName": "CustomerManagement.Configurations",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Wodsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj",
+        "projectName": "CustomerManagement.DataAccess",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj",
+        "projectName": "CustomerManagement.Model",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.wbui\\CustomerManagement.wbui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.wbui\\CustomerManagement.wbui.csproj",
+        "projectName": "CustomerManagement.wbui",
+        "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.wbui\\CustomerManagement.wbui.csproj",
+        "packagesPath": "C:\\Users\\TAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.wbui\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Base\\CustomerManagement.Base.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\CustomerManagement.Business.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Business\\CustomerManagement.Business.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Common\\CustomerManagement.Common.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.DataAccess\\CustomerManagement.DataAccess.csproj"
+              },
+              "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Model\\CustomerManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

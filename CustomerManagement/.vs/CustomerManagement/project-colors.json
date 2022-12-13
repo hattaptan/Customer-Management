@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5f7be663-df29-430f-a270-afd1193a716d": {
+      "ProjectGuid": "5f7be663-df29-430f-a270-afd1193a716d",
+      "DisplayName": "CustomerManagement.Model",
+      "ColorIndex": 0
+    },
+    "164d810f-9a45-4410-ad02-c7c8fb18385c": {
+      "ProjectGuid": "164d810f-9a45-4410-ad02-c7c8fb18385c",
+      "DisplayName": "CustomerManagement.DataAccess",
+      "ColorIndex": 1
+    },
+    "6bf92f5c-613c-46fa-bcd4-0742dc4e161b": {
+      "ProjectGuid": "6bf92f5c-613c-46fa-bcd4-0742dc4e161b",
+      "DisplayName": "CustomerManagement.Base",
+      "ColorIndex": 2
+    },
+    "aef41ba8-f6c0-4d97-96ec-76161aed16bc": {
+      "ProjectGuid": "aef41ba8-f6c0-4d97-96ec-76161aed16bc",
+      "DisplayName": "CustomerManagement.Business",
+      "ColorIndex": 3
+    },
+    "d7fa3b00-67aa-4e88-81cc-77a710c9a506": {
+      "ProjectGuid": "d7fa3b00-67aa-4e88-81cc-77a710c9a506",
+      "DisplayName": "CustomerManagement.Common",
+      "ColorIndex": 4
+    },
+    "4ad1cadb-1444-4ae0-b6be-a315fd96b543": {
+      "ProjectGuid": "4ad1cadb-1444-4ae0-b6be-a315fd96b543",
+      "DisplayName": "CustomerManagement.WebUI",
+      "ColorIndex": 5
+    },
+    "7161e619-034f-4ff6-b3d2-b73fe02f3e73": {
+      "ProjectGuid": "7161e619-034f-4ff6-b3d2-b73fe02f3e73",
+      "DisplayName": "CustomerManagement.API",
+      "ColorIndex": 6
+    },
+    "dc2aa68d-257a-4834-8a22-8b6db6d929c6": {
+      "ProjectGuid": "dc2aa68d-257a-4834-8a22-8b6db6d929c6",
+      "DisplayName": "CustomerManagement.WebUI",
+      "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6b81de4c-881a-47d8-8c6f-473ca2585b5a": {
+      "ProjectGuid": "6b81de4c-881a-47d8-8c6f-473ca2585b5a",
+      "DisplayName": "CustomerManagement.WebUI",
+      "ColorIndex": 8
+    },
+    "21d74808-e42d-44af-97df-3162378be8cc": {
+      "ProjectGuid": "21d74808-e42d-44af-97df-3162378be8cc",
+      "DisplayName": "CustomerManagement.Configurations",
+      "ColorIndex": 9
+    },
+    "8651e71b-548b-4dbf-a130-8fd783c8c640": {
+      "ProjectGuid": "8651e71b-548b-4dbf-a130-8fd783c8c640",
+      "DisplayName": "CustomerManagement.UI",
+      "ColorIndex": 10
+    },
+    "19f4a317-b6f0-4059-9244-9550f760f179": {
+      "ProjectGuid": "19f4a317-b6f0-4059-9244-9550f760f179",
+      "DisplayName": "CustomerManagement.UI",
+      "ColorIndex": 11
+    },
+    "9ff619c7-a24b-4536-8d2f-97831187e865": {
+      "ProjectGuid": "9ff619c7-a24b-4536-8d2f-97831187e865",
+      "DisplayName": "CustomerManagement.Web",
+      "ColorIndex": 12
+    },
+    "1251d31f-3f6b-48a4-89e1-abbc93b4c14d": {
+      "ProjectGuid": "1251d31f-3f6b-48a4-89e1-abbc93b4c14d",
+      "DisplayName": "CustomerManagement.wbui",
+      "ColorIndex": 13
+    }
+  },
+  "NextColorIndex": 14
+}

@@ -1,0 +1,12 @@
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\bin\Debug\net6.0\CustomerManagement.Configurations.deps.json
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\bin\Debug\net6.0\CustomerManagement.Configurations.dll
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\bin\Debug\net6.0\ref\CustomerManagement.Configurations.dll
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\bin\Debug\net6.0\CustomerManagement.Configurations.pdb
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.csproj.AssemblyReference.cache
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.AssemblyInfoInputs.cache
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.AssemblyInfo.cs
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.csproj.CoreCompileInputs.cache
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.dll
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\ref\CustomerManagement.Configurations.dll
+C:\Users\TAN\source\repos\CustomerManagement\CustomerManagement.Configurations\obj\Debug\net6.0\CustomerManagement.Configurations.pdb

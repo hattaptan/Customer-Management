@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "9JOleYMmCYhXG/jrJyhqUkgrQWjTLlXJMht+X6wjlKiJ271+fWE5fNWH6skdnZUe4UEBW5uH6rp0NV6n6qWMVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TAN\\source\\repos\\CustomerManagement\\CustomerManagement.Configurations\\CustomerManagement.Configurations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TAN\\.nuget\\packages\\wodsoft.extensions.configuration.abstractions\\1.1.2\\wodsoft.extensions.configuration.abstractions.1.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wodsoft.Extensions.Configuration.Abstractions 1.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wodsoft.Extensions.Configuration.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

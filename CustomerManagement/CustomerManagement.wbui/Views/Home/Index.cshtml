@@ -1,0 +1,60 @@
+﻿@model List<CustomerManagement.Model.Models.Customers>
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+<style>
+	body {
+		background-color: #ffffff;
+		opacity: 0.8;
+		background-image: radial-gradient(#ec00ff 0.5px, #ffffff 0.5px);
+		background-size: 10px 10px;
+	}
+
+</style>
+
+
+
+<div class="h-75 align-items-center justify-content-center mt-5">
+	<div class="table-responsive-sm">
+		<table class="table table-bordered table-condensed table-striped table-hover sortable">
+
+			<thead>
+				<tr style="background-color:rgb(106, 90, 205);">
+					<th class="text-white" data-defaultsign="_19">  ID  </th>
+					<th class="text-white" data-defaultsign="AZ">Müşteri Kodu</th>
+					<th class="text-white" data-defaultsign="AZ">Müşteri Ünvanı</th>
+					<th class="text-white" data-defaultsign="AZ">İl</th>
+					<th class="text-white" data-defaultsign="AZ">İlçe</th>
+					<th class="text-white" data-defaultsign="AZ">Satış</th>
+					<th class="text-white" data-defaultsign="AZ">İşlem</th>
+					<th class="text-white" data-defaultsign="AZ">Sil</th>
+				</tr>
+			</thead>
+
+			@foreach (var item in Model.ToList())
+			{
+				<tr class="bg-light">
+					<td class="text-dark bg-white">@item.customerId</td>
+					<td class="text-dark bg-white">@item.customerCode</td>
+					<td class="text-dark bg-white">@item.customerTitle</td>
+					<td class="text-dark bg-white">@item.city</td>
+					<td class="text-dark bg-white">@item.district</td>
+					<td class="text-dark bg-white">@item.salesAmount</td>
+					<td class="text-dark bg-white">
+						<form asp-controller="Customer" asp-action="Check">
+							<button name="button" value="first+@item.customerId" aps-action="Check" class="btn btn-primary">Satış Yap</button>
+						</form>
+					</td>
+					<td class="bg-white">
+						<form asp-controller="Customer" asp-action="Deleted">
+							<button name="button" value="f+@item.customerId" aps-action="Deleted" class="btn btn-danger">Sil</button>
+						</form>
+					</td>
+				</tr>
+			}
+
+		</table>
+	</div>
+</div>
+

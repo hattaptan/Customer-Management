@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - CM</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/CustomerManagement.wbui.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+</head>
+<style>
+	body {
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1040%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='37.04' cx='448.46' cy='469.53' fill='url(%23SvgjsLinearGradient1041)'%3e%3c/circle%3e%3ccircle r='48.04' cx='147.88' cy='391.5' fill='url(%23SvgjsLinearGradient1042)'%3e%3c/circle%3e%3ccircle r='49.085' cx='504.94' cy='385.05' fill='url(%23SvgjsLinearGradient1043)'%3e%3c/circle%3e%3ccircle r='29.11' cx='639.39' cy='212.19' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/circle%3e%3ccircle r='49.585' cx='790.87' cy='320' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3ccircle r='40.4' cx='425.51' cy='536.04' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/circle%3e%3ccircle r='23.815' cx='704.85' cy='496.69' fill='url(%23SvgjsLinearGradient1047)'%3e%3c/circle%3e%3ccircle r='18.275' cx='819.59' cy='423.93' fill='url(%23SvgjsLinearGradient1048)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1040'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='374.38' y1='469.53' x2='522.54' y2='469.53' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='51.8' y1='391.5' x2='243.95999999999998' y2='391.5' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='406.77' y1='385.05' x2='603.11' y2='385.05' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='581.17' y1='212.19' x2='697.6099999999999' y2='212.19' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='691.7' y1='320' x2='890.0400000000001' y2='320' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='344.71' y1='536.04' x2='506.30999999999995' y2='536.04' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='657.22' y1='496.69' x2='752.48' y2='496.69' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1047'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='783.0400000000001' y1='423.93' x2='856.1400000000001' y2='423.93' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1048'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+	}
+
+	table,
+	thead,
+	tr,
+	tbody,
+	th,
+	td {
+		text-align: center;
+	}
+</style>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3" style="background-color:rgb(106, 90, 205);">
+			<div class="container-fluid">
+				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CM</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+					<ul class="navbar-nav flex-grow-1 ">
+						@if (User.Identity.IsAuthenticated)
+						{
+
+							<li class="nav-item">
+								<a class="nav-link  text-white " asp-area="" asp-controller="Customer" asp-action="Create">Add Customer</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link text-white " asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
+							</li>
+						}
+						<li class="nav-item">
+							<a class="nav-link text-white float-right" asp-area="" asp-controller="Register" asp-action="Index">Sign Up</a>
+						</li>
+						 
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2022 - CustomerManagement.wbui - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
